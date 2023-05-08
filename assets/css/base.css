@@ -1,0 +1,41 @@
+:root{
+    --black-color: #000;
+    --white-color: #fff;
+    --text-color:#333;
+}
+
+*{
+    box-sizing: inherit;
+
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6em;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.grid{
+    width:1200px;
+    max-width: 100%;
+}
+
+.grid__full-width{
+    width:100%;
+}
+
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.p-t-16{
+    padding-top: 16px;
+}
+.p-t-24{
+    padding-top: 24px;
+}
+
+
+
